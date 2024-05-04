@@ -8,6 +8,11 @@
 }
 
 .callout img {
+	/* float = allows other elements to flow around it 
+	it is usefull with images and block level elements
+	deixa a imagem flutuando, antes a mgem pegava todo o espaço
+	agora ela pega só o necessário e deixa elementos grudado a ela
+	*/
 	float: right;
 	margin: 0 0 10px 15px;
 	border: 1px solid #000;
