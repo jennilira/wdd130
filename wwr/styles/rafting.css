@@ -35,17 +35,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 0px 10px 2px;
   font-size: 2rem;
 }
-
 /* Header */
 header {
   background-color: var(--secondary-color);
 }
-
 /* Paragraphs */
 p {
   font-size: 1rem;
 }
-
 /* Navigation */
 nav {
   background-color: var(--nav-background-color);
@@ -61,7 +58,6 @@ nav a {
   text-decoration: none;
   padding: 1rem;
 }
-
 
 /* Footer */
 footer {
@@ -81,7 +77,6 @@ footer {
   width: 100%;
   height: auto;
 }
-
 .hero h1 {
   top: 100px;
   left: 300px;
@@ -89,7 +84,6 @@ footer {
   color: var(--secondary-color);
   font-size: 3.4rem;
 }
-
 /* Article */
 article {
   position: absolute;
@@ -101,20 +95,13 @@ article {
   right: 10px;
   top: 260px;
 }
-
 article img {
   width: 340px !important;
   height: 340px !important;
   object-fit: cover;
   float: right;
 }
-
 /* Section */
-section {
-  margin: 10px;
-}
+
 
 /* Images */
-img {
-  display: block;
-}
