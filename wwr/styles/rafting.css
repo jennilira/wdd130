@@ -1,54 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* Reset CSS */
 * {
   padding: 0;
   margin: 0;
   list-style: none;
   text-decoration: none;
-
 }
 
-
+/* Root Variables */
 :root {
   --primary-color: #2e503d;
   --secondary-color: #ffffff;
   --accent1-color: #97b1a6;
   --accent2-color: #676151;
-
   --heading-font: "Montserrat", serif;
   --paragraph-font: "Poppins", serif;
-
   --nav-background-color: #2e503d;
   --nav-link-color: #ffffff;
   --nav-hover-link-color: #ffffff;
   --nav-hover-background-color: #2e503d;
 }
 
+/* Body */
 body {
   font-family: var(--paragraph-font);
-  /* max-width: 1800px; */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   padding: 20px 0px 10px 2px;
   font-size: 2rem;
 }
 
+/* Header */
 header {
   background-color: var(--secondary-color);
 }
 
+/* Paragraphs */
 p {
   font-size: 1rem;
 }
 
+/* Navigation */
 nav {
   background-color: var(--nav-background-color);
   color: var(--secondary-color);
@@ -74,13 +71,15 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 
+/* Footer */
 footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
   padding: 30px;
-  
 }
+
+/* Hero */
 .hero {
   position: relative;
 }
@@ -88,8 +87,6 @@ footer {
 .hero img {
   display: block;
   width: 100%;
-  /* width: 100%; */
-  /* max-width: 100%; */
   height: auto;
 }
 
@@ -101,25 +98,31 @@ footer {
   font-size: 3.4rem;
 }
 
+/* Article */
 article {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 10px;
   margin: 10px;
-  left: 10px; /* Define a posição esquerda */
-  right: 10px; /* Define a posição direita */
+  left: 10px;
+  right: 10px;
   top: 260px;
 }
+
 article img {
   width: 340px !important;
   height: 340px !important;
   object-fit: cover;
   float: right;
 }
+
+/* Section */
 section {
   margin: 10px;
 }
-img{
+
+/* Images */
+img {
   display: block;
 }
