@@ -48,6 +48,17 @@ nav {
   padding: 1rem;
 }
 
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
 
 /* Footer */
 footer {
@@ -88,3 +99,9 @@ article {
   top: 260px;
 }
 
+article img {
+  width: 340px !important;
+  height: 340px !important;
+  object-fit: cover;
+  float: right;
+}
