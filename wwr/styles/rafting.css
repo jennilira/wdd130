@@ -52,12 +52,7 @@ nav {
   padding: 1rem;
 }
 
-nav a {
-  display: block;
-  color: var(--nav-link-color);
-  text-decoration: none;
-  padding: 1rem;
-}
+
 
 /* Footer */
 footer {
@@ -101,7 +96,3 @@ article img {
   object-fit: cover;
   float: right;
 }
-/* Section */
-
-
-/* Images */
