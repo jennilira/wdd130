@@ -10,7 +10,7 @@
 }
 
 /* Root Variables */
-/* :root {
+:root {
   --primary-color: #2e503d;
   --secondary-color: #ffffff;
   --heading-font: "Montserrat", serif;
@@ -19,28 +19,28 @@
   --nav-link-color: #ffffff;
   --nav-hover-link-color: #ffffff;
   --nav-hover-background-color: #2e503d;
-} */
+}
 
 /* Body */
-/* body {
+body {
   font-family: var(--paragraph-font);
-} */
+}
 
 /* Headings */
-/* h1, h2, h3 {
+h1, h2, h3 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   padding: 20px 0 10px 2px;
   font-size: 2rem;
-} */
+}
 
 /* Header */
-/* header {
+header {
   background-color: var(--secondary-color);
-} */
+}
 
 /* Navigation */
-/* nav {
+nav {
   background-color: var(--nav-background-color);
   color: var(--secondary-color);
   font-size: 1.2rem;
@@ -58,18 +58,18 @@ nav a {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
-} */
+}
 
 /* Footer */
-/* footer {
+footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
   padding: 30px;
-} */
+}
 
 /* Hero */
-/* .hero {
+.hero {
   position: relative;
 }
 
@@ -85,10 +85,10 @@ nav a:hover {
   left: 300px;
   color: var(--secondary-color);
   font-size: 3.4rem;
-} */
+}
 
 /* Article */
-/* article  {
+article  {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
@@ -104,4 +104,4 @@ article img {
   height: 340px !important;
   object-fit: cover;
   float: right; 
-} */
+}
