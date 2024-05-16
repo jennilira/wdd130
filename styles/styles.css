@@ -16,6 +16,7 @@ nav {
 }
 
 nav a {
+  background-color: steelblue;
   color: white;
   display: block;
   padding: 0.5rem;
