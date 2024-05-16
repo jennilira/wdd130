@@ -97,9 +97,7 @@ main h1 {
   margin: 10px 5px;
 }
 
-header,
-footer,
-main {
+header, footer, main {
   max-width: 840px;
   margin: 0 auto;
 }
