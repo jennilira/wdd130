@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-color: #8234ad;
+
+  --secondary-color: #ffffff;
+  --accent1-color: #97b1a6;
+  --button-color-background: #8234ad;
+  --button-color-background-hover: #6c2991;
+  --button-color: #ffffff;
+
+  --heading-font: "Montserrat", serif;
+  --paragraph-font: "Poppins", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  font-size: 1rem;
+  max-width: 960px;
+  padding: 20px;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+header h1 {
+  color: rgb(71, 71, 86);
+  justify-content: center;
+  
+}
+
+form {
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+label {
+  padding: 0.5rem 0.8rem;
+ 
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-q4{
+    max-width: 550px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+input {
+    padding: 0.3rem 0.2rem;
+    padding: 10px 13px 20px 5px;
+    margin: 0.1rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  
+  }
+  
+  input:focus {
+    border-color: #c4c3c3; 
+    outline: none;
+  }
+  
+button {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    margin: 1rem 0;
+    background-color: var(--button-color-background);
+    color: var(--button-color);
+    outline: none;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  textarea {
+    margin: 1rem 1rem;
+    outline: none;
+    padding: 2rem 0.5rem;
+    border: 2px solid #ccc;
+  }
+  
+  textarea:focus {
+    outline: none;
+  }
+  
+  select {
+    padding: 0.5rem 0.2rem;
+    margin: 0.1rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    align-self: center;
+  }
