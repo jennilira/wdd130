@@ -77,7 +77,18 @@ input {
   }
   
   input:focus {
-    border-color: #c4c3c3; 
+    border-color: #999d9f; 
+    box-shadow: 0 0 5px rgba(144, 150, 170, 0.5);
+    outline: none;
+  }
+  select:focus {
+    border-color: #999d9f; 
+    box-shadow: 0 0 5px rgba(144, 150, 170, 0.5);
+    outline: none;
+  }
+  textarea:focus {
+    border-color: #999d9f; 
+    box-shadow: 0 0 5px rgba(144, 150, 170, 0.5);
     outline: none;
   }
   
