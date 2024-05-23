@@ -133,12 +133,14 @@ article img {
   object-fit: cover;
   float: right;
 }
+.section-images {
+  margin: 1rem;
+  padding: 2rem;
+}
 
 
 .section-images h2 {
-  text-align: center;
-  margin: 1rem auto;
-
+color: #202020;
 }
 
 .section-images img{
@@ -197,6 +199,7 @@ figcaption {
 .contact-container-box{
   display: flex;
   padding:1rem;
+  justify-content: space-around;
 }
 .box-contact {
   border: 3px solid rgb(167, 167, 167);
@@ -227,7 +230,7 @@ label {
 }
 
 input {
-    padding: 0.3rem 0.2rem;
+    padding: 1rem 0.2rem;
     margin: 0.1rem 1rem;
     border-radius: 5px;
     border: 2px solid #ccc;
@@ -333,4 +336,6 @@ button {
 
   .container-form{
     background-color:#b1dec4;
+    padding: 1.4rem;
+    margin: 0 auto;
   }
