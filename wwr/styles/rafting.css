@@ -336,6 +336,19 @@ button {
 
   .container-form{
     background-color:#b1dec4;
-    padding: 1.4rem;
-    margin: 0 auto;
+    padding: 1rem 0 5rem 0;
+  }
+
+  .sociallinks{
+ 
+    display: flex;
+  }
+  .sociallinks a{
+    color: #fff;
+    display: flex;
+  }
+  
+  .sociallinks a:hover{
+    color: #fff;
+    display: flex;
   }
